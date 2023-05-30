@@ -1,4 +1,4 @@
-Kubernetes Setup Using Kubeadm In AWS EC2 Ubuntu Servers Container-D As Runtime
+Kubernetes Setup Using Kubeadm In Ubuntu Servers Container-D As Runtime
 =======
 
 Prerequisite:
@@ -6,21 +6,16 @@ Prerequisite:
 
 3 - Ubuntu Serves  > 20.2
 
-1 - Master  (4GB RAM , 2 Core) t2.medium
+1 - Master  
 
-2 - Worker  (1 GB, 1 Core)     t2.micro
+2 - Worker/agent  
 
 
-Note: Open Required Ports In AWS Security Groups. For now we will open All trafic.
+Note: Open Required Ports In Network Security Groups. For now we will open All trafic.
 
 ==========COMMON FOR MASTER & WORKERNODES START ====
 
-1) Switch to root user
-   
-sudo su
-
-
-2) Turn Off Swap Space
+1) Turn Off Swap Space
      
 swapoff -a
 sed -i '/ swap / s/^\(.*\)$/#\1/g' /etc/fstab
