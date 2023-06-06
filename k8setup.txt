@@ -4,11 +4,11 @@ Kubernetes Setup Using Kubeadm In Ubuntu Servers Container-D As Runtime
 Prerequisite:
 =============
 
-3 - Ubuntu Serves  > 20.2
+2 - Ubuntu Serves  > 20.2
 
 1 - Master  
 
-2 - Worker/agent  
+1 - Worker/agent  
 
 
 Note: Open Required Ports In Network Security Groups. For now we will open All trafic.
