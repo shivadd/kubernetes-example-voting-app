@@ -1,5 +1,6 @@
 Original : https://github.com/dockersamples/example-voting-app
 
+https://medium.com/devops-mojo/kubernetes-service-types-overview-introduction-to-k8s-service-types-what-are-types-of-kubernetes-services-ea6db72c3f8c
 
 # kubernetes-example-voting-app
 
