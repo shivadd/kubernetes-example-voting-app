@@ -69,4 +69,7 @@ Deploy Sample Application
      kubectl run nginx-demo --image=nginx --port=80
      kubectl get pods
      kubectl expose pod nginx-demo --port=80 --type=NodePort
-     kubectl get svc		
+     kubectl get svc	
+     kubectl delete pod/nginx-demo
+     kubectl delete svc/nginx-demo
+
