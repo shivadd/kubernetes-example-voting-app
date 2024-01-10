@@ -63,7 +63,10 @@ kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/we
 
 kubectl get nodes
 
+kubeadm token create --print-join-command
 
+Agent:
+execute above generated command
 ==========================
 
 Deploy Sample Application
